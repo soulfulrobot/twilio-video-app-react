@@ -40,6 +40,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "4.0.3",
     "rimraf": "3.0.2",
+    "rtcl-lib": "file:../rtcl-lib",
     "strip-color": "^0.1.0",
     "ts-node": "^9.1.1",
     "twilio": "^3.63.1",

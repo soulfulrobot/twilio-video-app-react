@@ -1,5 +1,6 @@
 import React from 'react';
 import { styled, Theme } from '@material-ui/core/styles';
+import { startMonitoring } from 'rtcl-lib';
 
 import MenuBar from './components/MenuBar/MenuBar';
 import MobileTopMenuBar from './components/MobileTopMenuBar/MobileTopMenuBar';
@@ -10,6 +11,8 @@ import Room from './components/Room/Room';
 
 import useHeight from './hooks/useHeight/useHeight';
 import useRoomState from './hooks/useRoomState/useRoomState';
+
+startMonitoring();
 
 const Container = styled('div')({
   display: 'grid',
